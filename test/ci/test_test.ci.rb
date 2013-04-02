@@ -3,6 +3,7 @@
 require 'rubygems'
 require 'selenium-webdriver'
 
+=begin
 caps = Selenium::WebDriver::Remote::Capabilities.firefox
 caps[:browserName] = "firefox"
 caps[:version] = "16"
@@ -20,3 +21,6 @@ element = driver.find_element(:name, 'Nickelodeon Deutschland')
 #element.submit
 puts driver.title
 driver.quit
+=end
+
+puts hello
